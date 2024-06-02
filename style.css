@@ -1,12 +1,39 @@
-.box{
-    width: 1249px;
-    height: 376px;
-    margin-top: 73px;
-    margin-left: 86px;
-    border-radius: 30px;
-    background-color: rgba(34, 244, 218, 1);
+body{
+    margin: 0;
 }
-h2{
-    text-align: center;
-    padding-top: 20px;
+.square1{
+    width: 233px;
+    height: 192px;
+    background-color:rgba(252, 0, 0, 1) ;
+    margin-top: 11px;
+    margin-left: 12px;
+    position: absolute;
+    z-index: 4;
+}
+.square2{
+    width: 233px;
+    height: 192px;
+    background-color:rgba(5, 252, 0, 1) ;
+    margin-top: 107px;
+    margin-left: 128px;
+    position: absolute;
+    z-index: 3;
+}
+.square3{
+    width: 233px;
+    height: 192px;
+    background-color:rgba(0, 10, 252, 1) ;
+    margin-top: 203px;
+    margin-left: 244px;
+    position: absolute;
+    z-index: 1;
+}
+.square4{
+    width: 233px;
+    height: 192px;
+    background-color:rgba(247, 252, 0, 1) ;
+    margin-top: 253px;
+    margin-left: 314px;
+    position: absolute;
+    z-index: 2;
 }
